@@ -1,11 +1,62 @@
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
         margin-bottom: 0;
         border-radius: 0;
-      }
-      
-      /* Add a gray background color and some padding to the footer */
-      footer {
-        background-color: #f2f2f2;
+    }
+
+    footer {
+        background-color: #007acc;
         padding: 25px;
-      }
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .group {
+        display: inline-block;
+    }
+
+    .text {
+        float: right;
+        padding-left: 5px;
+    }
+
+    .images {
+        float: left;
+    }
+
+    .contact-image {
+        height: 20px;
+        width: 20px;
+    }
+
+    .custom-list {
+        list-style-type: none;
+    }
+
+    h1 {
+
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: larger;
+        color: white;
+    }
+
+    #home-div {
+        border-style: solid;
+        border-color: white;
+        border-radius: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        height: 100px;
+    }
+
+    #top-header {
+        background-color: #007acc;
+    }
+
+    body {
+        background-image: url(./resources/images/background.jpg)
+    }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
@@ -7,59 +8,60 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-      <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" />
 
 
 </head>
+
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+  </nav>
+
+  <div id="top-header" class="jumbotron">
+    <div class="container text-center">
+      <h1>Colin Steward</h1>
     </div>
   </div>
-</nav>
 
-<div class="jumbotron">
-  <div class="container text-center">
-    <h1>Colin Steward</h1>      
-    <p>Home Page Example</p>
-  </div>
-</div>
+  <div class="container-fluid bg-3 text-center">
+    <div class="row">
+      <div id="home-div" class="col-sm-3">
+        <p>My name is Colin James Steward</p>
+      </div>
+      <div id="home-div" class="col-sm-3">
+        <p>I was born in Port Huron, Michigan</p>
+      </div>
+      <div id="home-div" class="col-sm-3">
+        <p>I graduated from Central Michigan University</p>
+      </div>
+      <div id="home-div" class="col-sm-3">
+        <p>I really don't like working with CSS or HTML, I prefer backend development</p>
+      </div>
+    </div>
+  </div><br><br>
 
-<div class="container-fluid bg-3 text-center">    
-  <div class="row">
-    <div class="col-sm-3">
-      <p>My name is Colin James Steward</p>
-    </div>
-    <div class="col-sm-3"> 
-      <p>I was born in Port Huron, Michigan</p>
-    </div>
-    <div class="col-sm-3">
-      <p>I graduated from Central Michigan University</p>
-    </div>
-    <div class="col-sm-3">
-      <p>I really don't like working with CSS or HTML, I prefer backend development</p>
-    </div>
-  </div>
-</div><br><br>
-
-<footer class="container-fluid text-center">
-  <p>This is the footer. It's where footer things go.</p>
-</footer>
+  <footer class="container-fluid text-center">
+    <p>This is the footer. It's where footer things go.</p>
+  </footer>
 
 </body>
+
 </html>
